@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: aliceblue;
+}
+
+header .options{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+header .buttons-lr a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header .options a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header .perfil{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+header .perfil a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+nav{
+    background-color: rgb(41, 41, 41);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.searcher input{
+    width: 20%;
+    height: 40%;
+    border: none;
+    border-radius: 8px;
+
+}
+
+main{
+    background-color: rgb(45, 31, 240);
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+}
+
+section{
+    background-color: rgb(0, 0, 0);
+    width: 15%;
+    height: 100%;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    padding: 10px 1rem;
+    color: aliceblue;
+}
+
+.menu p{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 1rem;
+}
+
+aside{
+    background-color: rgb(157, 0, 255);
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    }
+
+.textos{
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: aliceblue;
+}
+
+.tarjetas{
+    background-color: rgb(0, 0, 0);
+    height: 220px;
+    width: 100%;
+    display: grid;
+}
+
+.tarjetas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+    padding: 20px;
+}
+
+.tarjetas div{
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    color: aliceblue;
+}
+
+.item1{
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.item1 img{
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.item2{
+    background-color: blue;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.item2 img{
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.item3{
+    background-color: blue;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.item3 img{
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.item4{
+    background-color: blue;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.item4 img{
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.item5{
+    background-color: blue;
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.item5 img{
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.item6{
+    background-color: blue;
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.item6 img{
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: rgb(255, 111, 0);
+    width: 100%;
+    height: 30px;
+}
